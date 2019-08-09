@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>The About Page</h1>
+    <h1>Todos App</h1>
 </body>
 </html>

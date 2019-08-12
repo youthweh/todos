@@ -22,7 +22,7 @@
                         @foreach($datatodos as $todo)
                             <li class="list-group-item">
                             {{ $todo->name }}
-                                <button class="btn btn-primary">
+                                <button class="btn btn-primary btn-sm float-right">
                                     View
                                 </button>
                             </li>

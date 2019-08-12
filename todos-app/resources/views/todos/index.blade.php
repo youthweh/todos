@@ -8,5 +8,15 @@
 </head>
 <body>
     <h1>Todos App</h1>
+    <ul>
+    @foreach($datatodos as $todo)
+        <li>
+        {{ $todo->description }}
+        </li>
+    @endforeach
+    </ul>
+
+    
+
 </body>
 </html>

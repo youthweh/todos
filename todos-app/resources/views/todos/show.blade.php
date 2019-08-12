@@ -8,6 +8,26 @@
     <title>Todo Item</title>
 </head>
 <body>
-    {{$todopage->name}}
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="text-center my-5">
+             {{$todopage->name}}
+            </h1>
+            <div class="card card-default">
+                <div class="card-header">
+                    Details
+                </div>
+
+                <div class="card-body">
+                    {{$todopage->description}}
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+   
 </body>
 </html>

@@ -19,6 +19,7 @@
                 <div class="card-body">
                     {{$todopage->description}}
                 </div>
+                <a href="/todos/{{$todopage->id}}/edit" class="btn btn-info">Edit</a>
             </div>
         </div>
       </div>

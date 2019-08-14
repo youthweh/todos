@@ -20,8 +20,7 @@
                     {{$todopage->description}}
                 </div>
              </div>
-                <a href="/todos/{{$todopage->id}}/edit" class="btn btn-info btn-sm my-5">Edit</a>
-           
+                <a href="/todos/{{$todopage->id}}/edit" class="btn btn-info btn-sm my-2">Edit</a>
         </div>
       </div>
 
